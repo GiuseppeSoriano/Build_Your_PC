@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html id="register_page" lang="it">
+    
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="logo.svg" />
+        <title>REGISTRAZIONE</title>
+        
+        <link rel="stylesheet" href="./CSS//style_login_register.css">
+    
+    </head>
+
+    <body>
+        <h2>REGISTRAZIONE</h2>
+
+        <div id="REG">
+            <form method="post" action="./PHP/register.php">
+                <input type="text" id="username" placeholder="Username" name="username" maxlength="50" required class="reg_form">
+                <input type="password" id="password" placeholder="Password" name="password" required class="reg_form">
+                <select id="tipo_utente" name="tipo_utente" class="reg_form">
+                    <option id="altro" selected value="altro">Altro</option>
+                    <option id="Studente" value="studente">Studente</option>
+                    <option id="Lavoratore" value="lavoratore">Lavoratore</option>
+                    <option id="Gamer" value="gamer">Gamer</option>
+                </select><br>
+                <button type="submit" name="register">Registrati</button>
+            </form>
+        </div>
+
+        
+
+    </body>
+
+</html>

@@ -1,0 +1,31 @@
+html{
+    background-color: bisque;
+}
+
+.blocco_configurazioni{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    padding-top: 6px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    width: max-content;
+    background-color: rgb(255, 177, 177);
+}
+
+.button_conf{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(170, 255, 255);
+    margin-right: 6px;
+    font-size: 12pt;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.button_conf:hover{
+    background-color: rgb(7, 133, 133);
+    color: white;
+}

@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+
+.log_form {
+	font: 14px 'Open Sans', sans-serif;
+    border: 2px solid #ccc;
+    padding: 6px;
+	margin-bottom: 10px;
+    width: 20%;
+}
+
+.reg_form {
+	font: 14px 'Open Sans', sans-serif;
+    border: 2px solid #ccc;
+    padding: 6px;
+	margin-bottom: 10px;
+    width: 96%;
+}
+
+button{
+    width: 100px;
+    background-color: azure;
+    margin-top: 4px;
+    font-size: 10pt;
+    padding: 4px;
+    font-weight: bold;
+}

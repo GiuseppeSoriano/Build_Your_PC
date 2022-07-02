@@ -1,0 +1,53 @@
+html{
+    background-color: azure;
+}
+.studente{
+    background-image: url("../Images_configurazioni/books.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.lavoratore{
+    background-image: url("../Images_configurazioni/money.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.gamer{
+    background-image: url("../Images_configurazioni/controller_rid.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.freccia{
+    width: 50px;
+    height: 50px;
+}
+
+.freccia_destra{
+    position: fixed;
+    top: 50%;
+    right: 20px;
+}
+
+.freccia_sinistra{
+    position:fixed;
+    top: 50%;
+    left: 20px;
+}
+
+.disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.content{
+    width: 800px;
+    top: 500px;
+    z-index: -1;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}

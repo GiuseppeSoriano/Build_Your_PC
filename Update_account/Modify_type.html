@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="it">
+    
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="../logo.svg" />
+        <title>MODIFICA TIPO UTENTE</title>
+        
+        <link rel="stylesheet" href="style_update.css">
+    
+    </head>
+
+    <body>
+        <h2>MODIFICA TIPO UTENTE</h2>
+
+        <div id="UPD_US">
+            <form method="post" action="mod_type.php">
+                <select id="tipo_utente" name="tipo_utente" class="upd_form">
+                    <option id="altro" selected value="altro">Altro</option>
+                    <option id="Studente" value="studente">Studente</option>
+                    <option id="Lavoratore" value="lavoratore">Lavoratore</option>
+                    <option id="Gamer" value="gamer">Gamer</option>
+                </select><br>
+                <input type="password" id="password" placeholder="Password" name="password" required class="upd_form"><br>
+                <button type="submit" name="modifica" class="modify_button">MODIFICA</button>
+            </form>
+            <button onclick="document.location.href = 'Update_account.html';" class="modify_button">BACK</button>
+        </div>
+
+        
+
+    </body>
+
+</html>

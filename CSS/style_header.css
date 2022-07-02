@@ -1,0 +1,17 @@
+#profile{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    background-color: azure;
+    position:absolute;
+    width:fit-content;
+    padding: 8px;
+    right:15px;
+    text-align: right;
+}
+
+.spaziatura_navbar{
+    width: 100%;
+    height: 85px;
+    margin: 0;
+}
+

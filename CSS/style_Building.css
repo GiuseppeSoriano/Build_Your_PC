@@ -1,0 +1,98 @@
+html{
+    background-color:#ffffe0;
+}
+
+#box_configura{
+    width: 100%;
+    text-align: center;
+}
+
+.nome_componente{
+    width: 150px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 5px;
+    padding-bottom: 6px;
+    margin: 0px;
+}
+
+select{
+    width: 100%;
+    margin-right: 1px;
+    background-color: transparent;
+    border: 1px solid #ffffe0;
+    font-family: inherit;
+    outline: none;
+}
+
+.elenco_componenti{
+    width: 500px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+    margin-right: 5px;
+}
+
+.componente_scelta{
+    width: 500px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: left;
+    padding: 5px;
+    padding-bottom: 6px;
+    margin: 0px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+button{
+    height: 32px;
+    background-color: rgb(212, 169, 252);
+    color: black;
+    border: 1px solid black;
+}
+
+button:disabled{
+    height: 32px;
+    background-color: rgb(238, 220, 255);
+    color: rgb(104, 104, 104);
+    border: 1px solid black;
+}
+
+#titolo_configurazione{
+    width: 400px;
+    text-align: center;
+    padding: 8px;
+    font-weight:600;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
+
+#box_prezzo{
+    padding-left: 60px;
+    font-size: 14pt;
+    font-style: normal;
+}
+
+.classe_prezzo{
+    text-align: left;
+    width: 100px;
+    font-weight:600;
+    font-size: 20px;
+    border: 0px;
+    color: black;
+    background-color: #ffffe0;
+    pointer-events: none;
+}
+
+#save{
+    height: auto;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 12pt;
+}
